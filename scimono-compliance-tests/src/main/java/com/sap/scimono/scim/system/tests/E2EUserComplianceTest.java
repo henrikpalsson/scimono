@@ -28,8 +28,8 @@ import static com.sap.scimono.scim.system.tests.util.TestData.buildTestUserWithE
 import static com.sap.scimono.scim.system.tests.util.TestData.extractUserIds;
 import static com.sap.scimono.scim.system.tests.util.TestUtil.constructResourceLocation;
 import static java.util.Collections.singletonMap;
-import static javax.servlet.http.HttpServletResponse.SC_NOT_FOUND;
-import static javax.servlet.http.HttpServletResponse.SC_NO_CONTENT;
+import static jakarta.servlet.http.HttpServletResponse.SC_NOT_FOUND;
+import static jakarta.servlet.http.HttpServletResponse.SC_NO_CONTENT;
 import static jakarta.ws.rs.core.Response.Status.CREATED;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
